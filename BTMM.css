@@ -1,0 +1,195 @@
+
+
+
+
+li a:hover {
+	background-color: grey;
+	border-radius: 10px;
+
+}
+.box{
+	width: 1000px;
+	height: 800px;
+	padding: 20px;
+	margin: 100px auto;
+	box-shadow: 0px 0px 10px 2px gray;
+	background-size: cover;
+	text-align: center;
+}
+
+
+img {
+	width: 200px;
+	height: 200px;
+
+}
+
+*{
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.navbar{
+	font-family: calibri;
+	padding-right: 15px;
+	padding-left: 15px;
+	position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background-color: black;
+	
+}
+
+
+.navdiv{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+li {
+	list-style-type: none;
+	display: inline-block;
+
+}
+li a{
+	color: white;
+	font-family: 18px;
+	font-weight: bold;
+	margin-right: 25px;
+	font-size: 30px;
+}
+button{
+	background-color: black;
+	margin-left: 10px;
+	border-radius: 20px;
+	padding: 10px;
+	width: 90px;
+	height: 40px;
+	box-shadow: 0px 0px 10px 2px gray;
+}
+button a{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+button a:hover{
+	color:#FF0000;
+}
+
+footer{
+	background-color: #111;
+}
+.footerContainer{
+	width: 100%;
+	padding: 70px, 30px, 20px;
+
+}
+.SocialIcons{
+	display: flex;
+	justify-content: center;
+}
+.SocialIcons a{
+	text-decoration: none;
+	padding: 10px;
+	background-color: white;
+	margin: 10px;
+	border-radius: 50px;
+}
+
+.SocialIcons a i{
+	font-size: 2em;
+	color: black;
+	opacity: 0.9;
+
+}
+.footerNav{
+	color: white;
+	margin: 30px 0;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 1em;
+	opacity: 0.7;
+
+}
+
+/* Hover effects on Social Icons */
+.SocialIcons a:hover{
+	background-color: #111;
+	transition: 0.5;
+}
+
+.SocialIcons a:hover i{
+	color: white;
+	transition: 0.5;
+}
+
+.footerBootom{
+	background-color: #000;
+	padding: 20px;
+	text-align: center;
+}
+
+.footerBootom p{
+	color: white;
+}
+.designer{
+	opacity: 0.7;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400px;
+	margin: 0px 5px;
+}
+
+h1{
+	color: red;
+	font-weight: bold;
+	font-family: Courier New, monospace;
+	padding-left: 10px;
+
+}
+p{
+	font-family: Courier New, monospace;
+	font-size: 1em;
+	padding-left: 10px;
+
+}
+
+.container{
+	position: relative;
+	width: 1100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	margin-top: 3%;
+}
+
+.container .card{
+	width: 308px;
+	position: relative;
+	height: 400px;
+	background-color: #5AF005;
+	margin: 30px 10px;
+	padding: 20px 15px;
+	display: flex;
+	flex-direction: column;
+	box-shadow:0px 0px 10px 2px gray;
+	border-radius: 20px;
+	transition: 0.3s ease-in-out;
+}
+
+.container .card:hover{
+	transform: translateY(20px);
+}
+
+.container .card p1{
+	font-family: Courier New, monospace;
+	font-size: 1.3em;
+	font-weight: bold;
+}
